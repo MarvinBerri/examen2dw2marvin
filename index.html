@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Framework7</title>
+    <link href="css/framework7.bundle.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="app">
+      <section class="panel panel-left panel-cover" id="menu">
+        <div class="block">
+          <img src="img/user.png" alt="" />
+          <p class="head">Christian Rodriguez</p>
+        </div>
+        <div class="block">
+          <div class="list media-list">
+            <ul>
+              <li>
+                <a href="/home/" class="item-content panel-close">
+                  <div class="item-media">
+                    <span class="material-icons">home</span>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title-row">
+                      <div class="item-title">Home</div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/about/" class="item-content panel-close">
+                  <div class="item-media">
+                    <span class="material-icons">favorite_border</span>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title-row">
+                      <div class="item-title">Acerca de nosotros</div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/login/" class="item-content panel-close">
+                  <div class="item-media">
+                    <span class="material-icons">power_settings_new</span>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title-row">
+                      <div class="item-title">Cerrar sesión</div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="view view-main view-init">
+        <section data-name="home" class="page">
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+              <div class="left">
+                <a href="#" class="link panel-open" data-panel="left">
+                  <i class="material-icons">menu</i>
+                </a>
+              </div>
+              <div class="subnavbar">
+                <form class="searchbar">
+                  <div class="searchbar-inner">
+                    <div class="searchbar-input-wrap">
+                      <input type="search" placeholder="Search" />
+                      <i class="searchbar-icon"></i>
+                      <span class="input-clear-button"></span>
+                    </div>
+                    <span class="searchbar-disable-button if-not-aurora"
+                      >Cancel</span
+                    >
+                  </div>
+                </form>
+              </div>
+              <div class="right">
+                <a href="/mapa/" class="button button-fill">Locación</a>
+              </div>
+            </div>
+          </nav>
+
+          <section class="page-content" id="categories">
+            <div class="block">
+              <div class="row">
+                <article class="col">
+                  <a href="/home/">
+                    <span class="material-icons">lunch_dining</span><br />
+                    Hamburguesas<br />
+                    <span class="material-icons">radio_button_checked</span
+                    ><br />
+                  </a>
+                </article>
+                <article class="col">
+                  <a href="/home2/">
+                    <span class="material-icons">restaurant_menu</span>
+                    Burritos<br />
+                    <span class="material-icons">radio_button_unchecked</span
+                    ><br />
+                  </a>
+                </article>
+                <article class="col">
+                  <a href="/home3/">
+                    <span class="material-icons">breakfast_dining</span><br />
+                    Submarinos<br />
+                    <span class="material-icons">radio_button_unchecked</span
+                    ><br />
+                  </a>
+                </article>
+              </div>
+            </div>
+
+            <div class="block">
+              <div class="list">
+                <ul>
+                  <li>
+                    <div class="item-content paddinglista">
+                      <div class="item-media">
+                        <img
+                          src="img/Bacon-Cheese-Burger-Transparent-Background.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title">
+                          <div class="item-header">Hamburguesa con queso</div>
+                          <p>Hamburguesa con queso</p>
+                          <div class="item-footer">
+                            <span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_outline</span>
+                          </div>
+                        </div>
+                        <div class="item-after">
+                          <span class="material-icons">dining</span><br />L50.00
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="item-content paddinglista">
+                      <div class="item-media">
+                        <img
+                          src="img/Double-Cheese-Burger-Transparent-PNG.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title">
+                          <div class="item-header">Hamburguesa con queso</div>
+                          <p>Hamburguesa con queso</p>
+                          <div class="item-footer">
+                            <span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_outline</span
+                            ><span class="material-icons">star_outline</span
+                            ><span class="material-icons">star_outline</span>
+                          </div>
+                        </div>
+                        <div class="item-after">
+                          <span class="material-icons">dining</span><br />L50.00
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="item-content paddinglista">
+                      <div class="item-media">
+                        <img
+                          src="img/chicken-sandwich-fried-chicken-chicken-fingers-hamburger-chicken-burger-dd74a6be1756d3b8a597993ff7599afc.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title">
+                          <div class="item-header">Hamburguesa con queso</div>
+                          <p>Hamburguesa con queso</p>
+                          <div class="item-footer">
+                            <span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span>
+                          </div>
+                        </div>
+                        <div class="item-after">
+                          <span class="material-icons">dining</span><br />L50.00
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="item-content paddinglista">
+                      <div class="item-media">
+                        <img
+                          src="img/Bacon-Cheese-Burger-Transparent-PNG.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title">
+                          <div class="item-header">Hamburguesa con queso</div>
+                          <p>Hamburguesa con queso</p>
+                          <div class="item-footer">
+                            <span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_outline</span
+                            ><span class="material-icons">star_outline</span>
+                          </div>
+                        </div>
+                        <div class="item-after">
+                          <span class="material-icons">dining</span><br />L50.00
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="item-content paddinglista">
+                      <div class="item-media">
+                        <img
+                          src="img/Bacon-Cheese-Burger-PNG-Transparent-Image.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title">
+                          <div class="item-header">Hamburguesa con queso</div>
+                          <p>Hamburguesa con queso</p>
+                          <div class="item-footer">
+                            <span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span
+                            ><span class="material-icons">star_rate</span>
+                          </div>
+                        </div>
+                        <div class="item-after">
+                          <span class="material-icons">dining</span><br />L50.00
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+
+      <section class="login-screen modal-in" id="login-screen">
+        <div class="view">
+          <div class="page">
+            <div class="page-content login-screen-content">
+              <div class="login-screen-title">
+                <img
+                  src="img/3-removebg-preview.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <form class="block" id="form-login">
+                <div class="list">
+                  <ul>
+                    <li class="item-content item-input">
+                      <div class="item-inner">
+                        <div class="item-input-wrap">
+                          <input
+                            type="text"
+                            name="username"
+                            placeholder="Nombre"
+                            required
+                            validate
+                          />
+                          <span class="input-clear-button"></span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item-content item-input">
+                      <div class="item-inner">
+                        <div class="item-input-wrap">
+                          <input
+                            type="password"
+                            name="password"
+                            placeholder="Contraseña"
+                            required
+                            validate
+                          />
+                          <span class="input-clear-button"></span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="block">
+                  <a href="#" class="button" id="btnLogin">Ingresar</a>
+                  <div class="block-footer">
+                    <p>
+                      ¿No tenés una cuenta?
+                      <a href="/register/" class="login-screen-close"
+                        >Registrate</a
+                      >
+                    </p>
+                    <p>
+                      <a href="/home/" class="login-screen-close"
+                        >Acceder como invitado</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--/app -->
+
+    <script src="js/framework7.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
